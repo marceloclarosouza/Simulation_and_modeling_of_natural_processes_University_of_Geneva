@@ -148,7 +148,7 @@ def computeError(x,xRef,ratio):
 n_rk = np.array([1000, 2000, 4000, 8000])
 n_e = np.array([1000, 2000, 4000, 8000])
 
-n_ref = 16000
+n_ref =16000
 tmin = 0
 tmax = 13
 
