@@ -9,7 +9,7 @@ N = numa + numb
 
 randomNumberList = [0.800, 0.801, 0.752, 0.661, 0.169, 0.956, 0.949, 0.003, 0.201, 0.291, 0.615, 0.131, 0.241, 0.685, 0.116, 0.241, 0.849]
 
-for i in range(len(randomNumberList)):
+for i in range(8):
     rand = random.choice(randomNumberList)
     
     if rand < (numa/N):
