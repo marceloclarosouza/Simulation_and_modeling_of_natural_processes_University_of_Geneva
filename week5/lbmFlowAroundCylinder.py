@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 from matplotlib import cm
 
 ###### Flow definition #########################################################
-maxIter = 200000  # Total number of time iterations.
+maxIter = 200000  # Total number of time iterations. 200000
 Re = 10.0         # Reynolds number.
 nx, ny = 420, 180 # Numer of lattice nodes.
 ly = ny-1         # Height of the domain in lattice units.
